@@ -19,6 +19,7 @@ body{
     color: white;
     border: none;
     cursor: pointer;
+     width:100%;
 
 }
 
@@ -204,3 +205,248 @@ nav ul li a:hover{
 }
 
 
+/* Pricing Section */
+
+.pricing{
+
+    width:100%;
+
+    margin:120px auto;
+
+
+
+}
+
+.pricing h2{
+
+    text-align:center;
+
+    font-size:56px;
+
+    font-weight:800;
+
+    margin-bottom:15px;
+
+}
+
+.pricing-subtitle{
+
+    text-align:center;
+
+    color:#777;
+
+    font-size:20px;
+
+    margin-bottom:60px;
+
+}
+
+.pricing-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.price-card{
+
+    border:1px solid #e5e5e5;
+
+    border-radius:12px;
+
+    padding:30px;
+
+    background:#fff;
+
+}
+
+.pro-card{
+
+    background:#101c2d;
+
+    color:white;
+
+}
+
+
+.price-card h5{
+
+    color:#8a8a8a;
+
+    font-size:14px;
+
+    margin-bottom:10px;
+
+}
+
+.pro-card h5{
+
+    color:#3f82ff;
+
+}
+
+.price-card h1{
+
+    font-size:60px;
+
+    margin-bottom:5px;
+
+}
+
+.price-card span{
+
+    color:#777;
+
+    display:block;
+
+    margin-bottom:25px;
+
+}
+
+.pro-card span{
+
+    color:#d2d2d2;
+
+}
+.price-card hr{
+
+    border:none;
+
+    border-top:1px solid #e5e5e5;
+
+    margin-bottom:25px;
+
+}
+
+.pro-card hr{
+
+    border-top:1px solid #2b3d55;
+
+}
+
+.price-card ul{
+
+    display:block;
+
+    margin-bottom:35px;
+
+    padding-left:20px;
+
+}
+
+.price-card ul li{
+
+    margin-bottom:16px;
+
+    color:#555;
+
+}
+
+.pro-card ul li{
+
+    color:white;
+
+}
+.outline-btn{
+
+    width:100%;
+
+    padding:15px;
+
+    border:2px solid #2b63ff;
+
+    background:white;
+
+    color:#2b63ff;
+
+    border-radius:8px;
+
+    font-weight:700;
+
+    cursor:pointer;
+
+}
+
+
+.dark-outline{
+
+    border:2px solid #333;
+
+    color:#333;
+
+}
+
+/* FAQ Section */
+
+.faq{
+
+    width:90%;
+    margin:120px auto;
+
+}
+
+.faq h2{
+
+    text-align:center;
+    font-size:52px;
+    font-weight:800;
+    margin-bottom:15px;
+
+}
+
+.faq-subtitle{
+
+    text-align:center;
+    color:#666;
+    font-size:20px;
+    margin-bottom:60px;
+
+}
+
+.faq-container{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+
+}
+
+.faq-box{
+
+    border:1px solid #e5e5e5;
+    border-radius:12px;
+    padding:30px;
+    background:white;
+    transition:0.3s;
+
+}
+
+.faq-box:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.faq-box h3{
+
+    color:#2457ff;
+    font-size:24px;
+    margin-bottom:15px;
+
+}
+
+.faq-box p{
+
+    color:#666;
+    font-size:18px;
+    line-height:30px;
+
+}
