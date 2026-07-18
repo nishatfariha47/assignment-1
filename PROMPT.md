@@ -1,0 +1,1 @@
+Create a modern FAQ section for a DevConf 2026 landing page using HTML and CSS. The design should match a blue and white technology conference website, include four question cards in a two-column layout, rounded corners, hover effects, and be fully responsive.
