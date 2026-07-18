@@ -62,3 +62,62 @@ nav ul li a:hover{
     color:#2457ff;
 }
 
+.hero{
+    height: 700px ;
+    background-image: url("./banner.jpg");
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.hero-content{
+
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+.hero-content h1{
+
+    font-size:72px;
+
+    font-weight:800;
+
+    color:white;
+
+    line-height: 1.2;
+
+    margin-bottom:20px;
+
+    
+
+}
+
+.hero-content p{
+
+    width: 700px;
+    margin: 0 auto;
+
+
+    color:white;
+
+    font-size: 20px;
+
+    line-height: 36px;
+
+    margin-bottom:50px;
+
+}
+
+
