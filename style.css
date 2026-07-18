@@ -14,13 +14,25 @@ body{
     background-color: blue;
     padding: 15px 30px;
     border-radius: 8px;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+     width:50;
+
+}
+
+.common-bton {
+    background-color: blue;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-weight: 900;
     font-size: 18px;
     color: white;
     border: none;
     cursor: pointer;
      width:100%;
-
 }
 
 header {
